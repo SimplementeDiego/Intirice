@@ -123,6 +123,8 @@ main {
 
 .main-long-img img {
 
+  width: 296px;
+  height: 622px;
   border-radius: 55px;
   box-shadow: 4px 4px 10px 0px gray;
   transition: 0.3s ease-in;
