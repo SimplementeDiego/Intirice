@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intirice</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100;500;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100;500;700&family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <img
+        src="images/Intirice_Logo_WEBP_60.webp"
+        alt="Intirice Logo"
+        id="logo"
+        onclick="scrollToTop()"
+      />
+
+      <div class="header-div-container">
+        <div class="inside-header-div-container">
+          <h1 id="title" onclick="scrollToTop()">Intirice</h1>
+          <ul class="header-list">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us!</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="space" id="arriba"></div>
+
+      <div class="main-container">
+        <div class="main-long-img long-left">
+          <img src="images/Harina_De_Arroz_WEBP.webp" alt="" />
+        </div>
+        <div class="main-info">
+          <div class="main-info-top">Quality</div>
+          <div class="main-info-bot">
+            <div class="card-container">
+              <div class="card" onclick="this.classList.toggle('flipped');">
+                <div class="front">
+                  <h3>Lab Analysis</h3>
+                  <img src="images/Lab_Certificate.png" alt="">
+                  <p class="click-indicator">Haz clic para más información</p>
+                </div>
+                <div class="back">
+                  <p>
+                    More Info... Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Explicabo nulla sint, voluptate molestiae
+                    amet quaerat ab necessitatibus? Cumque ducimus ipsum
+                    voluptas unde alias quod, recusandae assumenda tempore eaque
+                    aliquid pariatur.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-container">
+              <div class="card" onclick="this.classList.toggle('flipped');">
+                <div class="front">
+                  <h3>Kosher Certification</h3>
+                  <img src="images/newsthumb_10091_o.png" alt="">
+                  <p class="click-indicator">Haz clic para más información</p>
+                </div>
+                <div class="back">
+                  <p>
+                    More Info... Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Neque pariatur sint unde nisi iste
+                    cupiditate id vero repudiandae quo aperiam quam corrupti
+                    aliquid ullam fuga, debitis at possimus alias quisquam!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-container">
+        <div class="main-info">
+          <div class="main-info-top">Reliability</div>
+          <div class="main-info-bot">
+            <div class="card-container">
+              <div class="card" onclick="this.classList.toggle('flipped');">
+                <div class="front">
+                  <h3>Lab Analysis</h3>
+                  <img src="images/Lab_Certificate.png" alt="">
+                  <p class="click-indicator">Haz clic para más información</p>
+                </div>
+                <div class="back">
+                  <p>
+                    More Info... Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Explicabo nulla sint, voluptate molestiae
+                    amet quaerat ab necessitatibus? Cumque ducimus ipsum
+                    voluptas unde alias quod, recusandae assumenda tempore eaque
+                    aliquid pariatur.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-container">
+              <div class="card" onclick="this.classList.toggle('flipped');">
+                <div class="front">
+                  <h3>Kosher Certification</h3>
+                  <img src="images/newsthumb_10091_o.png" alt="">
+                  <p class="click-indicator">Haz clic para más información</p>
+                </div>
+                <div class="back">
+                  <p>
+                    More Info... Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Neque pariatur sint unde nisi iste
+                    cupiditate id vero repudiandae quo aperiam quam corrupti
+                    aliquid ullam fuga, debitis at possimus alias quisquam!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-long-img long-right">
+          <img src="images/Harina_Integral_Resize_WEBP.webp" alt="" />
+        </div>
+      </div>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
