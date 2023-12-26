@@ -1,9 +1,1 @@
-function scrollToTop() {
-  const cantidad = window.scrollY;
-
-  for (let i = cantidad; -1 < i; i--) {
-    setTimeout(() => {
-      window.scroll(0, i);
-    }, 0 + (cantidad - i) * 0.35);
-  }
-}
+function scrollToTop(){let l=window.scrollY;for(let o=l;-1<o;o--)setTimeout(()=>{window.scroll(0,o)},0+(l-o)*.35)}
